@@ -10,7 +10,8 @@ LABEL maintainer="nick.reva@snap.com"
 LABEL version="V1"
 
 #refresh zypper and install updates
-RUN zypper ref && zypper up -y
+RUN zypper ref
+#RUN zypper ref && zypper up -y
 
 #add local user
 USER $SEC_USER
