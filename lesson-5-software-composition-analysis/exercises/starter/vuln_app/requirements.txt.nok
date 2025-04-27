@@ -1,0 +1,19 @@
+aiohttp-jinja2
+aiohttp-session
+aiohttp
+aiopg
+aioredis
+async-timeout      # via aiohttp, aioredis
+attrs             # via aiohttp
+chardet            # via aiohttp
+hiredis            # via aioredis
+idna                 # via yarl
+jinja2            # via aiohttp-jinja2
+markupsafe         # via jinja2
+multidict          # via aiohttp, yarl
+psycopg2         # via aiopg
+pyyaml
+trafaret-config
+trafaret
+yarl               # via aiohttp
+typing_extensions #not working
